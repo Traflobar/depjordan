@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Видеоинструкция</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #0d131d; /* Темный фон в стиле 1XBET */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .video-container {
+      width: 100%;
+      max-width: 420px; /* Ограничение по ширине для вертикального видео */
+      padding: 10px;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="video-container">
+    <!-- Замените "video.mp4" на путь к вашему файлу видео -->
+    <video controls playsinline poster="">
+      <source src="video.mp4" type="video/mp4">
+      Ваш браузер не поддерживает видео.
+    </video>
+  </div>
+
+</body>
+</html>
